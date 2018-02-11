@@ -69,7 +69,7 @@ document.getElementById('book-form').addEventListener('submit', function(e) {
 
   // validating fields
   if (title.value === "" || author.value === "" || isbn.value === "") {
-    ui.showAlert('Please Fill empty fields!', 'error');
+    ui.showAlert('Please Fill all fields!', 'error');
   } else {
     // Adding book to the list
     ui.addBookToList(book);

@@ -1,1 +1,1 @@
-Simple Book listing app with javascript
+Simple Book listing app with vanilla javascript
